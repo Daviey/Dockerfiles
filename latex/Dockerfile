@@ -6,4 +6,5 @@ RUN apt-get update && apt-get install -y \
                 make \
                 texlive-full \
                 python3-pygments \
+                git \
         && rm -rf /var/lib/apt/lists/*
